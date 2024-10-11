@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.fylo {
+    
+    background-color: #0A0C22;
+    height: 100vh;
+
+    
+}
+
+.container {
+    background-image: url(bg-desktop.png);
+    background-size:auto;
+
+    mask-repeat: no-repeat;
+    position: relative;
+    top:21.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.container-one {
+    position: relative;
+    bottom: 5rem;
+    left: 2rem;
+    background-color: #1e2c69;
+    width: 13rem;
+    padding: 20px;
+    border-radius:12px 60px  12px 12px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.icons {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.container-tow {
+    background-color: #1e2c69;
+    position: relative;
+    bottom: 5rem;
+    padding: 20px;
+    border-radius: 12px;
+    width:20rem;
+    position: relative;
+    right: 4rem;
+}
+
+.container-tow p {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+    color: #ffffffbf;
+    margin-bottom: 10px;
+    font-size: x-small;
+    
+}
+
+.barre {
+    width:15rem;
+    height: 15px;
+    background-color: #3C4061;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.barre-one {
+    width: 12rem;
+    height: 5rem;
+    background: linear-gradient(90deg, #FF6C6C, #FFB6B6);
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius:50px 50px 50px 50px ;
+    position: absolute;
+    right: 98px;
+
+}
+.gb{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+
+
+}
+.gb h1{
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+    color: #ffffffbf;
+    margin-bottom: 10px;
+    font-size: x-small;
+}
+
+.container-three {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    bottom: 7rem;
+    right: 10px;
+    background-color: white;
+    color: #0A0C22;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+.container-three :first-child{
+    margin-right: 10px;
+    font-size: xx-large;
+}
+.container-three :last-child{
+    font-size: small;
+    color: #323333b5;
+}
